@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(28, 100%, 50%, 1);
+    position: relative;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(13, 100%, 31%, 1);
+}
+.three{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(40.47,100%,50%);
+}
+#fanta-image{
+    height: 450px;
+    width: 270px;
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    z-index: 3;
+}
+.one h1{
+    position: absolute;
+    font-size: 300px;
+    color: white;
+}
+.one .orange-slice{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: 34%;
+    top: 2%;
+}
+.one .orange2{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 46%;
+    top: 50%;
+    rotate: -20deg;
+    z-index: 4;
+}
+.one .leaf1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 15%;
+    top: 11%;
+    z-index: 4;
+}
+.one .leaf2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+}
+.one .leaf3{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 1;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.two .two-one{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.two .two-two{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.two .two-two h1{
+    font-size: 100px;
+    position: relative;
+    margin-left: 30px;
+    /* top: 5%; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.two .two-two p{
+    position: relative;
+    margin: 40px;
+    text-align: justify;
+    font-size: larger;
+    /* top: 10%; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+
+.two .two-one .juice-spill{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+.two .two-one .ice{
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    bottom: 75px;
+    left: -78px;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+}
+.three .box{
+    width:350px;
+    height: 75vh;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 10px 10px 15px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.three h4{
+    position: relative;
+    /* bottom: 10px; */
+    top: 235px;
+}
+
+.three .sprite{
+    height: 440px;
+    width: 500px;
+    position: absolute;
+}
+.three .pepsi{
+    height: 415px;
+    width: 450px;
+    position: absolute;
+}
+/* .three .fanta{
+    height: 450px;
+    width: 270px;
+    position: relative;
+} */
+.three h4{
+    margin-top: 15px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 0);
+    padding: 7px;
+    border-radius: 10px;
+    color: black;
+}
+.three .box .lemon{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -50px;
+}
