@@ -6,7 +6,7 @@
         start:"2% 95%",
         end:"45% 50%",
         scrub:1.5,  //give some value for smother effect
-        markers:true
+        // markers:true
     }
   })
 
@@ -64,7 +64,7 @@
         start:"30% 95%",
         end:"50% 50%",
         scrub:1.5,
-        markers:true,
+        // markers:true,
         // pin:true  pin only works in scroll trigger timeline definition
     }
   })
